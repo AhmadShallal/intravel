@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>InTravel</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inTravel.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="container d-flex flex-column">
+            <div class="info">
+                <span class="tel"><i class="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i>  Call us : +18044261149 </span>
+                <span class="add"><i class="fa fa-map-marker" aria-hidden="true"></i>  Australian Travel Agency, Ravish NSW, Australia.</span>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand text-uppercase" href="#">in travel</a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#NavId" aria-controls="NavId" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="NavId">
+                    <ul class="navbar-nav  mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="prices.html">Pricing Plans</a>
+                                <a class="dropdown-item" href="about.html">About Page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main-slider">
+        <ul class="rslides">
+            <li>
+                <!-- <img src="images/banner1.jpg" alt=""> -->
+                <p class="caption">Donec id elit non mi porta gravida at eget metus..</p>
+                <p class="caption two">Holiday packages and special deals.</p>
+            </li>
+            <li>
+                <!-- <img src="images/banner2.jpg" alt=""> -->
+                <p class="caption">Donec ullamcorper nulla non metus auctor fringilla..</p>
+                <p class="caption two">Holiday packages and special deals.</p>
+            </li>
+            <li>
+                <!-- <img src="images/banner4.jpg" alt=""> -->
+                <p class="caption">Pellentesque ornare sem lacinia quam venenatis vestibulum..</p>
+                <p class="caption two">Holiday packages and special deals.</p>
+            </li>
+            <li>
+                <!-- <img src="images/banner5.jpg" alt=""> -->
+                <p class="caption">Donec id elit non mi porta gravida at eget metus..</p>
+                <p class="caption two">Holiday packages and special deals.</p>
+            </li>
+        </ul>
+        <div class="link-buttons">
+            <a href="about.html">Read More <i class="fas fa-caret-right fa-sm"></i></a>
+            <a href="contact.html">Contact Us <i class="fas fa-caret-right fa-sm"></i></a>
+        </div>
+        <div class="social-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-behance"></i>
+            <div class="clear-both"></div>
+
+        </div>
+        <p class="text text-uppercase">connect with us</p>
+    </div>
+
+    <div class="tour-form">
+        <h4 class="title text-center text-uppercase">search your tour</h4>
+        <div class="container">
+            <form class="row" action="#">
+                <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+                    <label for="name"><i class="fas fa-user"></i> Traveller Name</label>
+                    <input type="text" name="" id="name" placeholder="Your Full Name">
+                </div>
+                <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+                    <label for="city"><i class="fas fa-map-marker"></i> Tour place</label>
+                    <select name="" id="city">
+                        <option value="">Paris</option>
+                        <option value="">London</option>
+                        <option value="">Madrid</option>
+                        <option value="">Lisbon</option>
+                        <option value="">Berlin</option>
+                    </select>
+                </div>
+                <div class="form-group  col-lg-2 col-sm-6 col-xs-12">
+                    <label for="from"><i class="fas fa-bus"></i> Trip in</label>
+                    <input type="date" name="" id="from" placeholder="Select Date">
+                </div>
+                <div class="form-group  col-lg-2 col-sm-6 col-xs-12">
+                    <label for="to"><i class="fas fa-bus"></i> Trip out</label>
+                    <input type="date" name="" id="to" placeholder="Select Date">
+                </div>
+                <div class="col-lg-2 col-xs-12 d-flex">
+                    <button type="submit">Search</button>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+
+    <div class="advertise-section">
+        <div class="container">
+            <div class="row">
+                <div class="one col-lg-6 col-xs-12 p-2 pb-3 text-center text-lg-left">
+                    <h4 class="my-4">Discount 10-35% off</h4>
+                    <h2 class="text-capitalize mb-4">Travel the world with us</h2>
+                    <a href="#" class="my-4 text-uppercase">Read More</a>
+                </div>
+                <div class="two col-lg-3 col-6 my-auto text-left">
+                    <div class="ad-vid fade-in-down">
+                        <a href="#vid-embed-1" class="video-popup popup-with-zoom-anim"><i class="fas fa-play"></i></a>
+                    </div>
+                    <div id="vid-embed-1" class="mfp-hide text-center">
+                        <iframe src="https://www.youtube.com/embed/8_9v0ve7P60" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <h4>Watch video</h4>
+                </div>
+                <div class="three col-lg-3 col-6 p-2">
+                    <div class="ad-img mt-4">
+                        <img class="img-fluid" src="images/off.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section py-5">
+        <div class="container py-md-3">
+            <h3 class="heading mb-md-5 mb-4 text-center">About Us</h3>
+            <div class="row">
+                <div class="col-lg-6 my-3 col-12">
+                    <h4 class="mb-3">welcome to the travel world</h4>
+                    <h3>Remember that happiness is a way of travel, not a destination.</h3>
+
+                    <p class="my-4">Aliquam consequat rhoncus ipsum et hendrerit. Proin sed nibhila rin iaculis, aliquet nunc nec, ornare nulla. Duis maximus faucibus ipsum consectetur. Donec elementum hendrerit arcu id rhoncus initis. lot Suspendisse ut elementum nunc.
+                        Aenean aliquam porta sem ins tincidunt congue. Phasellus dictum viverra sem id vehicula. Fus cenec elementum sapien.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="col-lg-6 my-lg-3 mt-4 col-12">
+                    <div class="image-contain">
+                        <img class="img-fluid" src="images/banner1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="services-section my-1">
+        <div class="container">
+            <h3 class="heading mb-5 text-center">Our Services</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="info-img">
+                        <div class="img-contain">
+                            <img class="img-fluid" src="images/s1.jpg" alt="">
+                        </div>
+
+                        <div class="info">
+                            <i class="fas fa-globe"></i>
+                        </div>
+
+                    </div>
+                    <h4 class="pt-5">Tempus eu turpis</h4>
+                    <p>Lorem ipsum dolor sit amet, do eiusmod tempor incididunt .Aliquam lacus turpis.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="info-img">
+                        <div class="img-contain">
+                            <img class="img-fluid" src="images/s2.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <i class="fas fa-suitcase    "></i>
+                        </div>
+
+                    </div>
+                    <h4 class="pt-5">Tempus eu turpis</h4>
+                    <p>Lorem ipsum dolor sit amet, do eiusmod tempor incididunt .Aliquam lacus turpis.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="info-img">
+                        <div class="img-contain">
+                            <img class="img-fluid" src="images/s3.jpg" alt="">
+                        </div>
+                        <div class="info">
+                            <i class="fas fa-bed    "></i>
+                        </div>
+
+                    </div>
+                    <h4 class="pt-5">Tempus eu turpis</h4>
+                    <p>Lorem ipsum dolor sit amet, do eiusmod tempor incididunt .Aliquam lacus turpis.</p>
+                </div>
+                <div class="bottom mx-auto mt-lg-4 mt-5">
+                    <a class="text-uppercase" href="services.html"> explore all services </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-slider my-5 ">
+        <div class="container py-5">
+            <h3 class="header text-center text-capitalize">latest tour blog</h3>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 left my-lg-0 my-5">
+                    <ul>
+                        <li>
+                            <a href="images/banner1.jpg">
+                                <img class="img-fluid float-left rounded-circle w-25" src="images/b1.jpg" data-desoslide-caption-title="Hi i'm an image" alt="">
+                                <h4>Maecenas aliqua Aenean aliquam porta sem ins.</h4>
+                                <p class="font-italic">posted 2 days ago.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/banner2.jpg">
+                                <img class="img-fluid float-left rounded-circle  w-25" src="images/b2.jpg" data-desoslide-caption-title="Hi i'm an image" alt="">
+                                <h4>Maecenas aliqua Aenean aliquam porta sem ins.</h4>
+                                <p class="font-italic">posted 2 days ago.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/banner4.jpg">
+                                <img class="img-fluid float-left rounded-circle  w-25" src="images/b4.jpg" data-desoslide-caption-title="Hi i'm an image" alt="">
+                                <h4>Maecenas aliqua Aenean aliquam porta sem ins.</h4>
+                                <p class="font-italic">posted 2 days ago.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/banner5.jpg">
+                                <img class="img-fluid float-left rounded-circle  w-25" src="images/b5.jpg" data-desoslide-caption-title="Hi i'm an image" alt="">
+                                <h4>Maecenas aliqua Aenean aliquam porta sem ins.</h4>
+                                <p class="font-italic">posted 2 days ago.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 right my-3 py-4">
+                    <h4 class="heading text-uppercase text-center my-3">happy travelling</h4>
+                    <div id="slideshow" class="slideshow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="members py-5">
+        <div class="container my-3">
+            <h3 class="heading text-center text-capitalize py-3 mb-4">
+                our team
+            </h3>
+            <div class="row mt-3 mt-lg-0">
+                <div class="section col-lg-3 col-md-6 col-12 text-center py-3 px-2">
+                    <div class="float-lg-left py-lg-3 py-3 pl-lg-3 text-center"><img class="rounded-circle" src="images/b1.jpg" alt=""></div>
+                    <div class="float-lg-right  pt-lg-5 pt-2 pr-lg-2">
+                        <ul class="pl-0">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text">
+                        <h4>Charlotte<span class="pl-2">Guide</span></h4>
+                        <p class="pt-3">Morbi non elit sed neque init rhoncus maximus ac enim.</p>
+                    </div>
+                </div>
+
+                <div class="section col-lg-3 col-md-6 col-12 text-center py-3 px-2">
+                    <div class="float-lg-left py-lg-3 py-3 pl-lg-3 text-center"><img class="rounded-circle" src="images/b1.jpg" alt=""></div>
+                    <div class="float-lg-right  pt-lg-5 pt-2 pr-lg-2">
+                        <ul class="pl-0">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text">
+                        <h4>Charlotte<span class="pl-2">Guide</span></h4>
+                        <p class="pt-3">Morbi non elit sed neque init rhoncus maximus ac enim.</p>
+                    </div>
+                </div>
+
+                <div class="section col-lg-3 col-md-6 col-12 text-center py-3 px-2">
+                    <div class="float-lg-left py-lg-3 py-3 pl-lg-3 text-center"><img class="rounded-circle" src="images/b1.jpg" alt=""></div>
+                    <div class="float-lg-right  pt-lg-5 pt-2 pr-lg-2">
+                        <ul class="pl-0">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text">
+                        <h4>Charlotte<span class="pl-2">Guide</span></h4>
+                        <p class="pt-3">Morbi non elit sed neque init rhoncus maximus ac enim.</p>
+                    </div>
+                </div>
+
+                <div class="section col-lg-3 col-md-6 col-12 text-center py-3 px-2">
+                    <div class="float-lg-left py-lg-3 py-3 pl-lg-3 text-center"><img class="rounded-circle" src="images/b1.jpg" alt=""></div>
+                    <div class="float-lg-right  pt-lg-5 pt-2 pr-lg-2">
+                        <ul class="pl-0">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="text">
+                        <h4>Charlotte<span class="pl-2">Guide</span></h4>
+                        <p class="pt-3">Morbi non elit sed neque init rhoncus maximus ac enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer py-3 mt-3">
+        <div class="container py-2">
+            <div class="row py-5">
+                <div class="col-lg-3 col-6">
+                    <a class="text-uppercase" href="#">
+                        <i class="fa fa-phone fa-rotate-90"></i> call us</a>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                    <a class="text-uppercase" href="#">
+                        <i class="fa fa-envelope"></i> Send Message</a>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                    <a class="text-uppercase" href="#">
+                        <i class="fab fa-skype"></i> Skype Call</a>
+                </div>
+
+                <div class="col-lg-3 col-6">
+                    <a class="text-uppercase" href="#">
+                        <i class="fa fa-comment"></i> Online Chat</a>
+                </div>
+            </div>
+            <div class="subscribe-footer text-center py-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet </p>
+                <h3 class="mb-3">Subscribe for our latest updates</h3>
+                <h4 class="mb-4">Get <span>10%</span> off on booking</h4>
+                <form class="mb-3" action="">
+                    <input type="email" name="" id="" placeholder="Subscribe">
+                    <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <div class="copy-footer py-3">
+        <div class="container">
+            <p class="text-center">
+
+                © 2018 In Travel. All Rights Reserved | Design by <a href="#">W3layouts</a>
+            </p>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!-- -->
+    <script src="js/jquery-forslider.js"></script>
+    <script src="js/responsiveslides.js"></script>
+    <script>
+        $(function() {
+            var prev = '<i class="fa fa-angle-left fa-2x"></i>';
+            var next = '<i class="fa fa-angle-right fa-2x"></i>';
+            $(".rslides").responsiveSlides({
+                auto: true, // Boolean: Animate automatically, true or false
+                speed: 500, // Integer: Speed of the transition, in milliseconds
+                timeout: 4000, // Integer: Time between slide transitions, in milliseconds
+                pager: true, // Boolean: Show pager, true or false
+                nav: true, // Boolean: Show navigation, true or false
+                random: false, // Boolean: Randomize the order of the slides, true or false
+                pause: false, // Boolean: Pause on hover, true or false
+                pauseControls: true, // Boolean: Pause when hovering controls, true or false
+                prevText: prev, // String: Text for the "previous" button
+                nextText: next, // String: Text for the "next" button
+                maxwidth: "", // Integer: Max-width of the slideshow, in pixels
+                navContainer: "", // Selector: Where controls should be appended to, default is after the 'ul'
+                manualControls: "", // Selector: Declare custom pager navigation
+                namespace: "rslides", // String: Change the default namespace used
+                before: function() {}, // Function: Before callback
+                after: function() {} // Function: After callback
+            });
+        });
+    </script>
+    <!--  -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.advertise-section .two .ad-vid .video-popup').magnificPopup({
+                type: 'inline',
+                //src: ''
+
+            });
+        });
+    </script>
+    <!-- blog slider -->
+    <script src="js/jquery.desoslide.min.js"></script>
+    <script>
+        $(window).load(function() {
+
+            $('#slideshow').desoSlide({
+                thumbs: $('.blog-slider .left ul li > a')
+
+            });
+
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

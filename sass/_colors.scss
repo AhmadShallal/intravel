@@ -1,0 +1,8 @@
+$main: #f2994a;
+$white:#ffffff;
+@mixin transition($item, $time) {
+    transition: $item $time ease-in-out;
+    -moz-transition: $item $time ease-in-out;
+    -webkit-transition: $item $time ease-in-out;
+    -o-transition: $item $time ease-in-out;
+}

@@ -1,0 +1,43 @@
+.services-section {
+    .row>div {
+        margin-bottom: 1em;
+    }
+}
+
+.testemonials-slider {
+    .tslides {
+        overflow: visible;
+        .client-div {
+            position: relative;
+            border: 2px solid #222;
+            border-left: 4px solid $main;
+            padding-left: 16em;
+            img {
+                position: absolute;
+                border: 3px solid #fff;
+                left: 2em;
+                bottom: 6em;
+                width: 13em;
+            }
+            //float: left;
+            .name {
+                padding: 0.6em 1em;
+                background-color: $main;
+                color: #fff;
+                letter-spacing: 2px;
+                margin-right: 0.5em;
+                font-weight: 600;
+                font-size: 1em;
+            }
+            .info {
+                margin-top: 1em;
+            }
+        }
+    }
+    i.fa {
+        padding: 0.5em;
+        margin: 0 0.35em;
+        background: $main;
+        color: #fff;
+    }
+}

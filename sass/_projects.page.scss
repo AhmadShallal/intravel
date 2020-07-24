@@ -1,0 +1,76 @@
+.projects-gallery {
+    .row {
+        div {
+            align-content: space-between;
+        }
+        .col-12,
+        .col-12>div {
+            padding: 0.15rem;
+        }
+    }
+    .img-fluid {
+        min-height: 100% !important;
+        @include transition(all, 0.5s);
+        &:hover {
+            //transform: scale(1.3);
+        }
+    }
+    a.image-link {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        text-decoration: none;
+        margin: 0;
+        padding: 0 !important;
+        &:after {
+            position: absolute;
+            //width: 100%;
+            //height: 0px;
+            @include transition(all, 0.5s);
+            background: rgba($color: #000000, $alpha: 0.3);
+            top: 100%;
+            //padding: 0.5rem !important;
+            z-index: -10;
+            //opacity: 0;
+            //margin: auto;
+            content: '';
+            text-align: center;
+            font-size: 3em;
+            color: #fff;
+        }
+        &:hover {
+            //display: block;
+            img {
+                transform: scale(1.5);
+            }
+            &:after {
+                z-index: 10;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                /*
+                top: 0.5rem;
+                left: 0.5rem;
+                bottom: 0.5rem;
+                right: 0.5rem;*/
+                //height: 100%;
+                content: 'In Travel';
+                //opacity: 1;
+            }
+        }
+    }
+    .padding-2 {
+        padding: 0.5rem;
+    }
+    .text {
+        padding: 3em 4.5em;
+        background: $main;
+        margin-bottom: 1em;
+        p {
+            font-size: 1.5em;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+}

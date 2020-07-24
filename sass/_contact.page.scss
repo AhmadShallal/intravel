@@ -1,0 +1,81 @@
+.contact-section {
+    iframe {
+        min-height: 50vh;
+        width: 99vw;
+        border: 5px solid $main;
+        outline: none;
+        background: #fff;
+        padding: 5px;
+    }
+    h4 {
+        font-weight: 700;
+        line-height: 1.2em;
+        font-size: 22px;
+        color: #222;
+        letter-spacing: 1.1px;
+        margin-bottom: 1em;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            margin: 20px 0;
+            span {
+                display: block;
+                float: left;
+                margin-right: 5%;
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: $main;
+                text-align: center;
+                i {
+                    line-height: 40px;
+                    color: #fff;
+                }
+            }
+            p {
+                //display: inline-block;
+                color: #888;
+                line-height: 40px;
+                margin: 0;
+                a {
+                    text-decoration: none;
+                    text-transform: lowercase;
+                    color: #888;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    form {
+        input,
+        textarea {
+            display: block;
+            width: 99%;
+            padding: 1em;
+            margin-bottom: 1em;
+            outline: none;
+            border: 1px solid #bbb;
+            color: #888;
+            border-left: 4px solid #bbb;
+            font-size: 18px;
+            line-height: 1.1em;
+            letter-spacing: 0.9px;
+        }
+        .button {
+            font-weight: bold;
+            cursor: pointer;
+            color: $white;
+            background-color: $main;
+            width: 25%;
+            border: none;
+            padding: 13px 40px;
+            @include transition(0.4s, all);
+            text-decoration: none;
+            &:hover {
+                background-color: #333;
+            }
+        }
+    }
+}
